@@ -1,19 +1,19 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(225, 131, 131);
+    background-color: #e29090;
 }
 
 #container {
     width: 1000px;
     height: 550px;
-    background-image: linear-gradient(rgba(160, 0, 0, 0.3), rgba(255, 255, 255, 0.3)), url(beach.jpg);
+    background-image: linear-gradient(rgba(160, 0, 0, 0.3), #c6b1b14d), url(beachh.jpg);
     margin: 20px auto;
 }
 
 #calculator {
     width: 320px;
     height: 520px;
-    background-color: #f48484;
+    background-color: #67a6a6;
     margin: 0 auto;
     top: 20px;
     position: relative;
@@ -40,7 +40,7 @@ body {
 
 .number,
 .empty {
-    background-color: #ffffff;
+    background-color: #f9a0a8;
 }
 
 .number,
@@ -70,7 +70,7 @@ body {
     margin: 0 20px;
     padding-top: 20px;
     font-size: 15px;
-    color: #000000;
+    color: #fffefe;
 }
 
 #output {
@@ -82,25 +82,25 @@ body {
 
 button:nth-child(4) {
     font-size: 20px;
-    background-color: #688483;
+    background-color: #d47272;
 }
 
 button:nth-child(8) {
     font-size: 20px;
-    background-color: #ffa500;
+    background-color: #67baf2;
 }
 
 button:nth-child(12) {
     font-size: 20px;
-    background-color: #882c2c;
+    background-color: #ace0ba;
 }
 
 button:nth-child(16) {
     font-size: 20px;
-    background-color: #ffffff;
+    background-color: #ef92c2;
 }
 
 button:nth-child(20) {
     font-size: 20px;
-    background-color: #9477af;
+    background-color: #dfec9f;
 }
